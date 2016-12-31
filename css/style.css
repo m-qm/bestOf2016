@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    background-color: darkblue;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 { 
+    margin: 0;
+    padding: 15px 0 0 0;
+    color: orangered;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav#bestOfCat {
+    width: 70%;
+    margin: 10px auto 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav#bestOfCat a{
+   margin: 0 10px 0 10px;
+}
+
+nav#bestOfCat a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav#bestOfCat a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav#bestOfCat a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+nav#bestOfCat a:active{
+    color: white;
+    text-decoration: underline;
+}
+
+#main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    text-align: right;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+footer a:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+footer a:active{
+    text-decoration: underline;
+    color: orangered;
+}
