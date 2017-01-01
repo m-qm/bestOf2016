@@ -10,6 +10,8 @@ header {
     background-color: darkblue;
     margin: 0;
     padding: 0;
+    z-index: 4;
+    position: relative;
 }
 
 header h1 { 
@@ -18,6 +20,7 @@ header h1 {
     color: orangered;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    z-index: 4;
 }
 
 nav#bestOfCat {
@@ -26,41 +29,70 @@ nav#bestOfCat {
     padding-bottom: 10px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    background-color: darkblue;
+    z-index: 4;
 }
 
-nav#bestOfCat a{
+nav#bestOfCat a, nav#bestOfCat-2 a{
    margin: 0 10px 0 10px;
 }
 
-nav#bestOfCat a:link{
+nav#bestOfCat a:link, nav#bestOfCat-2 a:link{
     color: white;
     text-decoration: none;
 }
 
 
-nav#bestOfCat a:visited{
+nav#bestOfCat a:visited, nav#bestOfCat-2 a:visited{
     color: white;
     text-decoration: none;
 }
 
 
-nav#bestOfCat a:hover{
+nav#bestOfCat a:hover, nav#bestOfCat-2 a:hover{
     color: white;
     text-decoration: underline;
 }
 
-nav#bestOfCat a:active{
+nav#bestOfCat a:active, nav#bestOfCat-2 a:active{
     color: white;
     text-decoration: underline;
+}
+
+nav#bestOfCat-2 {
+    padding: 5px 0 10px 0;
+    top:0;
+    width: 100%;
+    height: 24px;    
+    background-color: darkblue;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    z-index: 2;
 }
 
 #main {
     width: 70%;
     margin: 0 auto;
+    z-index: 1
 }
 
 h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
+}
+
+#hidden-title h3 {
+    color: orangered;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+#hidden-title {       
+    margin: 5px auto;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 3;
 }
 
 footer {
